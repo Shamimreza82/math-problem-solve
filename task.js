@@ -1,47 +1,106 @@
 // 1. feet to inch
 
-
-
 // function feetToInch (number) {
-//     const feetToInchConvirt = number * 12; 
-//     console.log (feetToInchConvirt); 
+//     const feetToInchConvert = number * 12; 
+//     return feetToInchConvert; 
 // }
 
-// console.log (feetToInch()); 
+// const feet = 1;
+// const convertResult = feetToInch (feet); 
+// console.log (convertResult);  
 
 
+// 2. Centimeter To Meter
 
-// 2. centimeterToMeter
-
-// function centimeterToMeter (number) {
-//     const centimeterToMeterConvirt = number * 0.01; 
-//     return centimeterToMeterConvirt; 
+// function centimeterToMeter(number) {
+//     const centimeterToMeter = number * 0.01;
+//     return centimeterToMeter;
 // }
 
 
-// const centimetertomitter = 1; 
-// console.log(centimeterToMeter(centimetertomitter))
+// const centimeter = 1;
+// const convertResult = centimeterToMeter(centimeter);
+// console.log(convertResult);
 
 
 
 
-// 3. bestFriend 
+// 3. Best Friend
 
-const friends = ["asif", "al Mamun Cool", "safaul", "abdur Rahim", "hasan" ]
+// function bestFriend(friendsName) {
+//     let bestFriend = friendsName[0];
+//     for (let i = 0; i < friendsName.length; i++) {
+//         const element = friendsName[i];
+//         if (element.length > bestFriend.length) {
+//             bestFriend = element;
+//         }
+//     }
+//     return bestFriend;
+// }
+
+// const friends = ["asif", "al Mamun Cool", "safaul", "abdur Rahim", "hasan"]
+// const friendName = bestFriend(friends);
+// console.log(friendName);
 
 
-function bestFriend (friendsName) {
-    let bestFriend = friendsName[0];
-    for (let i = 0; i < friendsName.length; i++){
-        const element = friendsName[i]; 
-        if (element.length > bestFriend.length){
-            bestFriend = element; 
-        }
-    }
-    return bestFriend; 
-}
+
+
+// 4. Only Positive
+
+// function onlyPositive(number) {
+//     let positiveNumber = []; 
+//     for (let i = 0; i < number.length; i++) {
+//         const element = number[i];
+//         if (element < 0) {
+//             break;
+//         }
+//         console.log(element);
+//     }
+// }
+
+// const numbers = [45, 87, 96, 11, 63, -56, 71, 28];
+// const positiveNumbers = onlyPositive(numbers);
 
 
 
-const friendNameAll = bestFriend (friends); 
-console.log (friendNameAll); 
+
+
+// 5. Paper Requirements
+
+// function paperRequirements(num1, num2, num3) {
+//     const book1 = 100;
+//     const book2 = 200;
+//     const book3 = 300;
+
+//     const book1PaperRequire = num1 * book1;
+//     const book2PaperRequire = num2 * book2;
+//     const book3PaperRequire = num3 * book3;
+
+//     const totalpageRequire = book1PaperRequire + book2PaperRequire + book3PaperRequire;
+//     return totalpageRequire;
+// }
+
+
+// const paperCount = paperRequirements(1, 1, 1);
+// console.log(paperCount); 
+
+
+
+
+
+
+// let math = 75.25; 
+// let biology = 65; 
+// let chemisty = 80; 
+// let physics = 35.45; 
+// let bangla = 99.50; 
+
+
+// let totalMarks = math + biology + chemisty + physics + bangla; 
+
+// let avaraheMarks = totalMarks / 5; 
+// let markavarage = avaraheMarks.toFixed(2);
+// let flotmarks = parseFloat(markavarage)
+// console.log (flotmarks); 
+
+
