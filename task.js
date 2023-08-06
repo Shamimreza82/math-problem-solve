@@ -121,14 +121,44 @@
 
 
 
-function isleapYear (year) {
-    if ( year % 4 == 0) {
-        return "This is leap Year"
-    }
-    else {
-        return "This is not a leap Year"
-    }
-}
+// function isleapYear (year) {
+//     if ( year % 4 == 0) {
+//         return "This is leap Year"
+//     }
+//     else {
+//         return "This is not a leap Year"
+//     }
+// }
 
 
-console.log (isleapYear ("2032")); 
+// console.log (isleapYear ("2032")); 
+
+
+//  const arr = [23, 56, 67, 78, 54, 78, 43]; 
+ 
+
+// console.log(arr.indexOf(0)); 
+
+
+// let name = "shamim Reza"
+// let name2 = "reza"
+// let name3 = "hasan" 
+
+// const addString = name.concat( " ",  name2,  " ", name3); 
+// // console.log ( addString); 
+
+
+// function findDiblicateName(name){
+//     let name1 = []; 
+//     for( let items of name){
+//       if (name1.includes(items) === false){
+//         name1.push(items); 
+//       }
+//     }
+//     return name1;   
+// }
+    
+
+// const name = [34, 34, 56, 465, 44, 44, 66, 77, 77]
+
+// console.log (findDiblicateName(name))
