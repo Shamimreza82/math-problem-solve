@@ -104,3 +104,31 @@
 // console.log (flotmarks); 
 
 
+
+
+// function evenOrOddNumber (number) {
+//     if ( number % 2 == 0) {
+//         return "This is even Number"
+//      }
+//      else {
+//         return "This is Odd number"
+//      }
+// }; 
+
+
+// console.log ( evenOrOddNumber(1)); 
+
+
+
+
+function isleapYear (year) {
+    if ( year % 4 == 0) {
+        return "This is leap Year"
+    }
+    else {
+        return "This is not a leap Year"
+    }
+}
+
+
+console.log (isleapYear ("2032")); 
