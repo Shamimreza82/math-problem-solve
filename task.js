@@ -269,3 +269,55 @@
 
 
 
+
+// 15. find is 7 large?. 
+
+
+// function idLGSeven (number){
+//     if ( typeof number !== "number") {
+//         return "Please Provide a number"
+//     }
+//     else if ( number < 7){
+//         return number - 7;
+//     }
+//     else {
+//         return number * number; 
+//     }
+// }
+
+
+// const laegenumber = 15; 
+// console.log (idLGSeven ( laegenumber)); 
+
+
+
+
+
+// 16. find gems in last. 
+
+
+// function gemsTodiamond (num1, num2, num3){
+//    if ( typeof num1 !== "number" || typeof num2 !== "number" || typeof num3 !== "number"){
+//     return "provide a valid number"
+//    }else if ( num1 < 0 || num2 < 0 || num3 < 0){
+//      return "Please Provide positive Number"
+//    }
+//     let friendFirst =  21; 
+//     let friendsecond = 32; 
+//     let friendthird =  43; 
+
+//    const totalgems = (num1 * friendFirst) + (num2 * friendsecond) + (friendthird * num3); 
+//    if ( totalgems > 2000){
+//     let total =  totalgems - 2000; 
+//     return total; 
+//    }
+//    else {
+//      return totalgems;
+//    }
+   
+
+// }
+
+
+// const total = gemsTodiamond (20,200,50); 
+// console.log(total);
