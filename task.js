@@ -135,7 +135,12 @@
 
 
 //  const arr = [23, 56, 67, 78, 54, 78, 43]; 
- 
+
+
+
+
+
+
 
 // console.log(arr.indexOf(0)); 
 
@@ -148,6 +153,15 @@
 // // console.log ( addString); 
 
 
+
+
+
+
+
+
+
+
+
 // function findDiblicateName(name){
 //     let name1 = []; 
 //     for( let items of name){
@@ -157,8 +171,85 @@
 //     }
 //     return name1;   
 // }
-    
+
 
 // const name = [34, 34, 56, 465, 44, 44, 66, 77, 77]
 
 // console.log (findDiblicateName(name))
+
+
+
+// function ticketPrice (number) {
+//     const first100Rate = 100; 
+//     const second100Rate = 90; 
+//     const restTticketRate = 70; 
+//     if(number <= 100)
+// }
+
+
+
+
+
+// function findingBadData(arr) {
+//     if (!Array.isArray(arr)) {
+//         return "Please Enter Valid Number"
+//     }
+//     let goodData = 0;
+//     let badData = 0;
+//     for (let items of arr) {
+//         if (items < 0) {
+//             badData++;
+//         }
+//     }
+//     return badData;
+// }
+
+
+// const arr = [2, -5, -7, -13];
+// const numbers = findingBadData(arr);
+// console.log(numbers); 
+
+
+
+// function inInteger (number) {
+//     if (typeof number !== "number"){
+//         return "Please input a number"
+//     }
+//     else if (number % 2 == 0){
+//         return true; 
+//     }
+//     else {
+//         return false; 
+//     }
+// }
+   
+
+
+// const numbers = inInteger (8); 
+// console.log (numbers); 
+
+
+
+
+
+// function isjavaScriptFile (fileName){
+//     if (typeof fileName !== "string"){
+//         return "please Provide a valid file Name"
+//     }
+//     else if (fileName.toLowerCase(fileName).endsWith(".js")){
+//             return true;
+//     }
+//     else {
+//         return false; 
+//     }
+// }
+
+
+
+// const validFileName = isjavaScriptFile ("first.js"); 
+// console.log(validFileName); 
+
+
+
+
+
