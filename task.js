@@ -86,7 +86,7 @@
 
 
 
-
+// 6. find avarage Number. 
 
 
 // let math = 75.25; 
@@ -105,6 +105,7 @@
 
 
 
+// 7. find find Even Or Odd number. 
 
 // function evenOrOddNumber (number) {
 //     if ( number % 2 == 0) {
@@ -117,9 +118,15 @@
 
 
 // console.log ( evenOrOddNumber(1)); 
+//  const arr = [23, 56, 67, 78, 54, 78, 43]; 
+// console.log(arr.indexOf(0)); 
 
 
 
+
+
+
+// 8. find Leap Years. 
 
 // function isleapYear (year) {
 //     if ( year % 4 == 0) {
@@ -134,15 +141,10 @@
 // console.log (isleapYear ("2032")); 
 
 
-//  const arr = [23, 56, 67, 78, 54, 78, 43]; 
 
 
 
-
-
-
-
-// console.log(arr.indexOf(0)); 
+// 9. String Concat. 
 
 
 // let name = "shamim Reza"
@@ -159,7 +161,7 @@
 
 
 
-
+// 10. Find Dublicate Number / Name. 
 
 
 // function findDiblicateName(name){
@@ -179,6 +181,10 @@
 
 
 
+
+// 11. Find tickiet with discount. 
+
+
 // function ticketPrice (number) {
 //     const first100Rate = 100; 
 //     const second100Rate = 90; 
@@ -188,7 +194,7 @@
 
 
 
-
+// 12. Find Bad Data on an arr. 
 
 // function findingBadData(arr) {
 //     if (!Array.isArray(arr)) {
@@ -211,6 +217,12 @@
 
 
 
+
+
+// 13. find inInteger number. 
+
+
+
 // function inInteger (number) {
 //     if (typeof number !== "number"){
 //         return "Please input a number"
@@ -229,6 +241,10 @@
 // console.log (numbers); 
 
 
+
+
+
+// 14. find Valid javaScript File name. 
 
 
 
